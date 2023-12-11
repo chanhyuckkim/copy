@@ -28,9 +28,19 @@ https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e96470
   - 그룹별로 커뮤니티사이트에서 게시글과 사진을 등록할 수 있습니다.
     
 - **그룹 일정** :pushpin: [코드 확인]
+![image](https://github.com/chanhyuckkim/copy/assets/149571615/406e065b-f434-474d-b3bf-bbb6e9fb4776)
 https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/calendar.js#L5C1-L5C1
   - 그룹별로 일정을 등록할수 있습니다.
-
+  - 풀캘린더 API를 이용하여 일정관리를 할 수 있습니다.
+- **장소 검색** :pushpin: [코드 확인]
+![image](https://github.com/chanhyuckkim/copy/assets/149571615/19ff317e-7750-4b5c-8f06-4766adfbb504)
+https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/map.js#L6
+- 키워드로 장소를 검색하여 가게 정보를 쉽게 찾아볼 수 있습니다.
+- **회비 관리** :pushpin: [코드 확인]
+![image](https://github.com/chanhyuckkim/copy/assets/149571615/edcd95d1-e644-426b-9772-a9cbe88d83fd)
+https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/feecalendar/feecalendar.js#L3
+- 사용한 회비를 입력하여 관리할 수 있습니다.
+- OCR기반으로 영수증의 텍스트를 읽어 회비관리를 할 수 있습니다.
 ### 4.4. Service
 
 ![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_service1.png)
