@@ -46,7 +46,7 @@
 ![image](https://github.com/chanhyuckkim/copy/assets/149571615/df02c5b4-6516-4715-90d8-bfd9c2d38ab8)
 
 - 본인이 속한 그룹의 회원들의 정보를 열람할 수 있습니다.
-- 회원가입할때 저장한 사지파일을 AWS를 통해 불러옵니다.
+- 회원가입할때 저장한 사진파일을 AWS를 통해 불러옵니다.
 </div>
 </details>
 
