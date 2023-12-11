@@ -14,22 +14,22 @@
 
 ### 4.2. 메인페이지 핵심기능
 
-- **본인 취미에 맞는 그룹 노출** :pushpin: [코드 확인](https://github.com/Integerous/goQuality/blob/b587bbff4dce02e3bec4f4787151a9b6fa326319/frontend/src/components/PostInput.vue#L67)(https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/mainpgjs/mainrank.js#L3)
-  - Vue.js로 렌더링된 화면단에서, 사용자가 등록을 시도한 URL의 모양새를 정규식으로 확인합니다.
-  - URL의 모양새가 아닌 경우, 에러 메세지를 띄웁니다.
+- **본인 취미에 맞는 그룹 노출** :pushpin: [코드 확인]
+- ![image](https://github.com/chanhyuckkim/copy/assets/149571615/59ca12fd-10c1-4fa4-aa7c-fb3757f01928)
+(https://github.com/Integerous/goQuality/blob/b587bbff4dce02e3bec4f4787151a9b6fa326319/frontend/src/components/PostInput.vue#L67)(https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/mainpgjs/mainrank.js#L3)
+  - 본인이 선택한 취미에 맞는 그룹이 사용자들의 좋아요 갯수가 많은 그룹부터 차례대로 노출됩니다.
+  - 취미에 맞는 프로필사진을 AWS에서 불러옵니다.
+### 4.3.  커뮤니티 사이트 핵심기능
 
-- **Axios 비동기 요청** :pushpin: [코드 확인]()
-  - URL의 모양새인 경우, 컨텐츠를 등록하는 POST 요청을 비동기로 날립니다.
+- **글/사진 등록** :pushpin: [코드 확인]
+  ![image](https://github.com/chanhyuckkim/copy/assets/149571615/2f4963a6-c3c2-4436-a1c3-3c0c035a3fc4)
 
-### 4.3. Controller
-
-![](https://zuminternet.github.io/images/portal/post/2019-04-22-ZUM-Pilot-integer/flow_controller.png)
-
-- **요청 처리** :pushpin: [코드 확인](https://github.com/JungHyung2/gitio.io/blob/d35d29b64c0e8b9653862bdcc1e6b997d2436ec9/index.html#L57C1-L57C202)
-  - Controller에서는 요청을 화면단에서 넘어온 요청을 받고, Service 계층에 로직 처리를 위임합니다.
-
-- **결과 응답** :pushpin: [코드 확인]()
-  - Service 계층에서 넘어온 로직 처리 결과(메세지)를 화면단에 응답해줍니다.
+https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/WEB-INF/community.html#L472
+  - 그룹별로 커뮤니티사이트에서 게시글과 사진을 등록할 수 있습니다.
+    
+- **그룹 일정** :pushpin: [코드 확인]
+https://github.com/2023-SMHRD-IS-CLOUD-1/YOU-I/blob/85cf700df6aed74bfe6b06e964702aaf8430bd45/YOU%26I/src/main/webapp/assets/js/calendar.js#L5C1-L5C1
+  - 그룹별로 일정을 등록할수 있습니다.
 
 ### 4.4. Service
 
